@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="ab-testing-test">
+        <parameter name="testDataPath" value="test-data/ab-testing/header.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.abTesting.ABTestingTest"> </class>
+        </classes>
+    </test>
+</suite>

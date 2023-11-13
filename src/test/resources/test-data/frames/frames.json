@@ -1,0 +1,6 @@
+{
+  "header": "Frames",
+  "iFrameHeader": "An iFrame containing the TinyMCE WYSIWYG Editor",
+  "text": "Hi, I am inside the iFrame!",
+  "nestedFramesUrl": "https://the-internet.herokuapp.com/nested_frames"
+}

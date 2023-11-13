@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="context-menu">
+        <parameter name="testDataPath" value="test-data/context-menu/context-menu.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.contextMenu.ContextMenuTest"> </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+{
+  "header": "JavaScript Alerts",
+  "promptMessage": "Hi, I am JS prompt!",
+  "jsAlertMessage": "You successfully clicked an alert",
+  "jsConfirmMessage": "You clicked: Ok",
+  "jsCancelMessage": "You clicked: Cancel",
+  "jsPromptMessage": "You entered: Hi, I am JS prompt!"
+}

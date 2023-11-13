@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="digest-auth">
+        <parameter name="testDataPath" value="test-data/digest-authentication/digest-auth.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.digestAuthentication.DigestAuthenticationTest"> </class>
+        </classes>
+    </test>
+</suite>

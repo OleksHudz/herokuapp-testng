@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="dynamic-controls">
+        <parameter name="testDataPath" value="test-data/dynamic-controls/dynamic-controls.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.dynamicControl.DynamicControlTest"> </class>
+        </classes>
+    </test>
+</suite>

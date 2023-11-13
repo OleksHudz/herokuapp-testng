@@ -1,0 +1,8 @@
+{
+  "redirectionHeader": "Redirection",
+  "statusCodesHeader": "Status Codes",
+  "link200": 200,
+  "link301": 301,
+  "link404": 404,
+  "link500": 500
+}

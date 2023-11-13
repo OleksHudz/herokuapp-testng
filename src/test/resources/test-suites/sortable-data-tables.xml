@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="sortable-data-tables">
+        <parameter name="testDataPath" value="test-data/sortable-data-tables/sortable-data-tables.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.sortableDataTables.SortableDataTablesTest"> </class>
+        </classes>
+    </test>
+</suite>

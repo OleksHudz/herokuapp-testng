@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="notification-messages">
+        <parameter name="testDataPath" value="test-data/notification-messages/notification-messages.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.notificationMessages.NotificationMessagesTest"> </class>
+        </classes>
+    </test>
+</suite>

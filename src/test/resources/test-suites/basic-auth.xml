@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="basic-auth">
+        <parameter name="testDataPath" value="test-data/basic-auth/basic-auth.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.basicAuth.BasicAuthTest"> </class>
+        </classes>
+    </test>
+</suite>

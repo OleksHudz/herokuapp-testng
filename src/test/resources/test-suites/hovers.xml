@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="hovers">
+        <parameter name="testDataPath" value="test-data/hovers/hovers.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.hovers.HoversTest"> </class>
+        </classes>
+    </test>
+</suite>

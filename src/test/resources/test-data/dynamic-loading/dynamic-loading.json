@@ -1,0 +1,6 @@
+{
+  "header":"Dynamically Loaded Page Elements",
+  "header1": "Example 1: Element on page that is hidden",
+  "header2": "Example 2: Element rendered after the fact",
+  "message": "Hello World!"
+}

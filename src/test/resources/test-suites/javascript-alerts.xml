@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="javascript-alerts">
+        <parameter name="testDataPath" value="test-data/javascript-alerts/javascript-alerts.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.javaScriptAlerts.JavaScriptAlertsTest"> </class>
+        </classes>
+    </test>
+</suite>

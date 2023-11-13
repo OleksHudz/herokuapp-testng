@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="frames">
+        <parameter name="testDataPath" value="test-data/frames/frames.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.frames.FramesTest"> </class>
+        </classes>
+    </test>
+</suite>

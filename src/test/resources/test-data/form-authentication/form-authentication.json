@@ -1,0 +1,9 @@
+{
+  "header": "Login Page",
+  "validUsername": "tomsmith",
+  "invalidUsername": "tom",
+  "password": "SuperSecretPassword!",
+  "successLoginMessage": "You logged into a secure area!\n×",
+  "logoutMessage": "You logged out of the secure area!\n×",
+  "failLoginMessage": "Your username is invalid!\n×"
+}

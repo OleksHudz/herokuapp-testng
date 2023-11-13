@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="redirect-link">
+        <parameter name="testDataPath" value="test-data/redirect-link/redirect-link.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.redirectLink.RedirectLinkTest"> </class>
+        </classes>
+    </test>
+</suite>

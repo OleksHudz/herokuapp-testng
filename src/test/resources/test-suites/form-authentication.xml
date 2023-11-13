@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="form-authentication">
+        <parameter name="testDataPath" value="test-data/form-authentication/form-authentication.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.formAuthentication.FormAuthenticationTest"> </class>
+        </classes>
+    </test>
+</suite>

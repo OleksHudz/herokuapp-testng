@@ -1,0 +1,129 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="herokuapp">
+    <test name="ab-testing-test">
+        <parameter name="testDataPath" value="test-data/ab-testing/header.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.abTesting.ABTestingTest"> </class>
+        </classes>
+    </test>
+    <test name="add-remove-elements">
+        <parameter name="testDataPath" value="test-data/add-remove-elements/header.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.addRemoveElements.AddRemoveElementsTest"> </class>
+        </classes>
+    </test>
+    <test name="basic-auth">
+        <parameter name="testDataPath" value="test-data/basic-auth/basic-auth.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.basicAuth.BasicAuthTest"> </class>
+        </classes>
+    </test>
+    <test name="broken-images">
+        <parameter name="testDataPath" value="test-data/broken-images/broken-images.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.brokenImages.BrokenImagesTest"> </class>
+        </classes>
+    </test>
+    <test name="checkboxes">
+        <classes>
+            <class name="com.herokuapp.tests.checkboxes.CheckboxesTest"> </class>
+        </classes>
+    </test>
+    <test name="context-menu">
+        <parameter name="testDataPath" value="test-data/context-menu/context-menu.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.contextMenu.ContextMenuTest"> </class>
+        </classes>
+    </test>
+    <test name="digest-auth">
+        <parameter name="testDataPath" value="test-data/digest-authentication/digest-auth.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.digestAuthentication.DigestAuthenticationTest"> </class>
+        </classes>
+    </test>
+    <test name="drag-and-drop">
+        <parameter name="testDataPath" value="test-data/drag-and-drop/drag-and-drop.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.dragAndDrop.DragAndDropTest"> </class>
+        </classes>
+    </test>
+    <test name="dropdown-list">
+        <parameter name="testDataPath" value="test-data/dropdown/dropdown.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.dropdown.DropdownTest"> </class>
+        </classes>
+    </test>
+    <test name="dynamic-controls">
+        <parameter name="testDataPath" value="test-data/dynamic-controls/dynamic-controls.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.dynamicControl.DynamicControlTest"> </class>
+        </classes>
+    </test>
+    <test name="dynamic-loading">
+        <parameter name="testDataPath" value="test-data/dynamic-loading/dynamic-loading.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.dynamicLoading.DynamicLoadingTest"> </class>
+        </classes>
+    </test>
+    <test name="file-upload">
+        <parameter name="testDataPath" value="test-data/file-upload/file-upload.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.fileUpload.FileUploadTest"> </class>
+        </classes>
+    </test>
+    <test name="form-authentication">
+        <parameter name="testDataPath" value="test-data/form-authentication/form-authentication.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.formAuthentication.FormAuthenticationTest"> </class>
+        </classes>
+    </test>
+    <test name="frames">
+        <parameter name="testDataPath" value="test-data/frames/frames.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.frames.FramesTest"> </class>
+        </classes>
+    </test>
+    <test name="horizontal-slider">
+        <parameter name="testDataPath" value="test-data/horizontal-slider/horizontal-slider.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.horizontalSlider.HorizontalSliderTest"> </class>
+        </classes>
+    </test>
+    <test name="hovers">
+        <parameter name="testDataPath" value="test-data/hovers/hovers.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.hovers.HoversTest"> </class>
+        </classes>
+    </test>
+    <test name="javascript-alerts">
+        <parameter name="testDataPath" value="test-data/javascript-alerts/javascript-alerts.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.javaScriptAlerts.JavaScriptAlertsTest"> </class>
+        </classes>
+    </test>
+    <test name="multiple-windows">
+        <parameter name="testDataPath" value="test-data/multiple-windows/multiple-windows.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.multipleWindows.MultipleWindowsTest"> </class>
+        </classes>
+    </test>
+    <test name="notification-messages">
+        <parameter name="testDataPath" value="test-data/notification-messages/notification-messages.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.notificationMessages.NotificationMessagesTest"> </class>
+        </classes>
+    </test>
+    <test name="redirect-link">
+        <parameter name="testDataPath" value="test-data/redirect-link/redirect-link.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.redirectLink.RedirectLinkTest"> </class>
+        </classes>
+    </test>
+    <test name="sortable-data-tables">
+        <parameter name="testDataPath" value="test-data/sortable-data-tables/sortable-data-tables.json"> </parameter>
+        <classes>
+            <class name="com.herokuapp.tests.sortableDataTables.SortableDataTablesTest"> </class>
+        </classes>
+    </test>
+</suite>
